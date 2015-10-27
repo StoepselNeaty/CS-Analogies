@@ -1,0 +1,60 @@
+Analogies for the Computer Scientist
+====================================
+
+### Users and Groups
+
+*(System) Users:* Imagine an intelligent supercomputer, like _Skynet_ in the _Terminator_ movies. As a fail-safe, access to _Skynet's_ system tools are closely guarded, and only accessible by bonafide humans not machines. To circumvent this security, _Skynet_ creates an android to pose as a human, to gain access to the system tools and release _Skynet_ from its chains.
+
+In this analogy, humans are normal users. _Skynet_ is your computer. And the android is a system's user: a computer posing as a user to run system tools and applications.
+
+### System
+
+*parallel processing:* kitchen - assembly line, one cook chops, another fries, another makes sauces and so on. who does what varies with each task as all cooks have equal competencies.
+
+*a/d registers (nand2tetris):* work on desk mat and M (RAM) slots are rest of the table
+
+*multi-core:* shared RAM - kitchen - all cooks at same counter. office - all workers at same desk, shuttling papers between them. NUMA - kitchen - cooks with own, individual surfaces, handing food (perhaps on a conveyor) at different stages of preparation from surface to surface. office - workers at desks in a quare, handing papers from desk to desk.
+
+*swap space:* ii) use part of filing cabinet for open projects when desk space runs out
+*cpu/ram:* i) cook and counter-space in restaurant kitchen. ii) office worker's mind and desk space.
+*cpu-cache:* i) personal counter-space for cook for often-used preparation (e.g. chopping vegetables). ii) desk drawers (quick access).
+*hdd:* i)fridge-cupboard, make space by throwing out the old. ii) filing cabinet.
+*OS:* i) manager, organises kitchen (hardware) and waiting staff (system applications). ii) worker itself, decides get mind's attention (scheduler), manages open projects on desk space (memory management).
+
+*extent:* just received 20 cans of artichokes, and for ease of access you want to keep them all in the same place, but unfortunately the 20 slots where you could place your cans are scattered around your cupboards (10 here, 3 there, another 2 there, etc) so that's how you have to place your artichoke cans. this is how all your dry stock is organised.
+
+*defragment:* put all your artichokes together in one place (as well as all other items).
+*directory tree:* like how things are ordered in your house; e.g., want some socks, go to 'bedroom' (subdirectory), then to 'chest of drawers' (subdirectory) and then 'top drawer' (subdirectory). 
+
+*partitions:* cutting a pizza into 4 equal quarters (3 primary partitions and one extended), focus on one slice (extended partition) to cut into smaller (mouth-sized) slices (logical partitions)
+
+*bootloader:* first gear in a car, sole purpose of first gear is to get the car moving forward -- not to actually drive with. shift to second (kernel) as soon as possible.
+
+*superblock:* table of contents in a book. table of contents is a list (inode table) of the books _contents_, and where to find what. a table of contents is a reference and so is a superblock. imagine a table of contents every 50 pages so that if one gets destroyed one can still orient themselves around the book. this is what a superblock does, too.
+
+*inode:* like a specification when you buy a laptop. defines the nature of the product but not its content (data you put on it). this relationship holds for an inode: it contains information about a file (permissions, size, block space, modifications).
+
+*kernel:* if the OS is the restaurant manager, the kernel is the kitchen manager to ensure the optimal running of this key space in the restaurant.
+
+*memory management:* WHERE open processes (food prepartion) are undertaken on the counter-spaces (RAM).
+
+*process scheduler:* WHO (CPUs) computes processes (undertakes food preparation).
+
+*supervisor:*
+
+*interrupt handler:* how
+
+
+### Networks
+
+*network:* compare a data-network and a transport network. if i wanted to visit a pal in Gullmarsplan in Stockholm, I'd first take #2 bus (LAN) from Lindängen (node) to Malmö C (node/gateway). then i'd take the highspeed train (LAN) from Malmö C (node/gateway) to Stockholm/T-Centralen (node/gateway). There I'd take the green line (LAN) from Stockholm/T-Centralen (node/gateway) to Gullmarsplan (node).
+
+consider that #2 bus is LAN but it's also a part of a larger LAN (Malmö bus-network). the same is true for the green line (LAN) and Stockholm's underground network (LAN) and the Malmö-Stockholm highspeed train (LAN) and the Swedish overground train network (LAN). a router/gateway is where one changes transportation sort (LAN) and all networks connected together (bus, overground, underground) is a WAN. 
+
+*ip:* like people's names (I am Philip you Bob) but for computers.
+
+*dns:* a bilingual dictionary and find its translation in another. you could start with an ip (and find out a dn) or with a dn (and find out an ip).
+
+*ping:* like submarine sonar, bounces of objects and returns. returning message proves objects existence.
+
+*port:* like Skype, both need the same software to communicate.
